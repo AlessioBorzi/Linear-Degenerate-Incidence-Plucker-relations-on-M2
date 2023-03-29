@@ -1,3 +1,4 @@
+load "./ldIncidencePlucker.m2"
 needsPackage "Tropical";
 n = 4;
 G = flatten for i from 1 to n-1 list(sort subsets(n,i));
